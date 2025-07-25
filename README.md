@@ -45,11 +45,73 @@ EduChain enables **offline credential minting** via:
 
 #### **Tech Stack**  
 ```mermaid
-graph LR
-    A[React Native] --> B[Expo SQLite]
-    B --> C[libp2p Bluetooth]
-    C --> D[ICP Canisters]
-    D --> E[EXT NFTs]
+graph TD
+    subgraph Student Device
+        A[Voice Recording] --> B[On-Device Whisper.cpp]
+        B --> C[Validation Engine]
+        C --> D[Create Credential]
+        D --> E[SQLite Storage]
+        E --> F[Bluetooth LE Broadcast]
+        style A fill:#4CAF50,stroke:#2E7D32
+        style B fill:#81C784,stroke:#2E7D32
+    end
+
+
+
+
+    subgraph Bluetooth Mesh Network
+        F --> G{Mesh Routing}
+        G -->|Teacher Nearby| H[Teacher Device]
+        G -->|No Teacher| I[P2P Forwarding]
+        I --> J[Mesh Node]
+        J -->|Store & Forward| H
+        style G fill:#FFC107,stroke:#FFA000
+    end
+
+
+
+
+    subgraph Teacher Device
+        H --> K[Pending Credentials]
+        K --> L[Review Interface]
+        L --> M{Decision}
+        M -->|Approve| N[Update Status]
+        M -->|Reject| O[Mark Rejected]
+        N --> P[BLE Broadcast]
+        O --> P[BLE Broadcast]
+        style L fill:#2196F3,stroke:#0D47A1
+    end
+
+
+
+
+    subgraph Blockchain Sync
+        P --> Q{Internet?}
+        Q -->|Available| R[Batch to ICP]
+        Q -->|Unavailable| S[Local Storage]
+        S -->|Later Sync| R
+        R --> T[Mint NFT]
+        T --> U[Store on IPFS]
+        style R fill:#9C27B0,stroke:#6A1B9A
+    end
+
+
+
+
+    subgraph Verification
+        U --> V[Employer Portal]
+        V --> W[Verify Credential]
+        W --> X[Skill Validation]
+        style V fill:#F44336,stroke:#C62828
+    end
+
+
+
+
+    A -->|Offline First| B
+    F -->|BLE/ WiFi Direct| G
+    P -->|Approved Creds| Q
+    U -->|CID Reference| V
 ```
 
 #### **Key Innovations**  
