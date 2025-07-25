@@ -115,6 +115,8 @@ graph TD
 | Jasom santo leon J | BE CSE student | Full-Stack, ICP, React Native |
 | Shiva vignesh kannan | AI/Blockchain | Whisper.cpp, Cryptography |
 | kavi | UX/Testing | Refugee camp deployments |  
+| gayathri | Full-Stack, ICP, React Native |
+| gayathri | Full-Stack, ICP, React Native |
 
 *Add LinkedIn/GitHub links for each member*
 
