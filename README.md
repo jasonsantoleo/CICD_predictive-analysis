@@ -2,27 +2,15 @@
 
 #### **Profile**  
 - **BUIDL Name**: EduChain  
-- **BUIDL Logo**:  
-  ![EduChain Logo](https://i.ibb.co/0jQz0vG/educhain-logo.png)  
-  *480×480 PNG | Open Book + Blockchain Links + Sound Waves*  
 - **Vision**:  
   > "To create an uncensorable education verification system that works in internet blackouts, turning refugee voices into blockchain-anchored credentials using offline AI and mesh networking."  
 - **Category**: **Al - Decentralized Intelligence**  
-- **AI Agent?**: **No**  
 
 #### **Links**  
 | Type | URL |
 |------|-----|
-| **GitHub** | `https://github.com/[YourUsername]/EduChain` |
-| **Project Website** | `https://educhain.xyz` (optional) |
-| **Demo Video** | `https://youtu.be/EduChain-Demo` (optional) |
+| **GitHub** | `(https://github.com/Shivavigneshkannan-k/EDUCHAIN)` |
 
-#### **Social Links** *(Minimum 1 required)*  
-1. 𝕏 Twitter: `https://twitter.com/EduChainApp`  
-2. Farcaster: `https://warpcast.com/~/channel/educhain`  
-3. LinkedIn: `https://linkedin.com/company/educhain`  
-
----
 
 ### **Details**  
 #### **Problem Solved**  
@@ -124,25 +112,21 @@ graph TD
 ### **Team**  
 | Name | Role | Expertise |
 |------|------|-----------|
-| [Your Name] | Lead Developer | Full-Stack, ICP, React Native |
-| [Teammate 1] | AI/Blockchain | Whisper.cpp, Cryptography |
-| [Teammate 2] | UX/Testing | Refugee camp deployments |  
+| Jasom santo leon J | BE CSE student | Full-Stack, ICP, React Native |
+| Shiva vignesh kannan | AI/Blockchain | Whisper.cpp, Cryptography |
+| kavi | UX/Testing | Refugee camp deployments |  
 
 *Add LinkedIn/GitHub links for each member*
 
 ---
 
 ### **Contact**  
-- **Email**: contact@educhain.xyz  
-- **Discord**: EduChain#5432  
-- **Emergency Contact**: +1 (555) 123-4567  
-
----
+- **Email**: jasonsantoleonj.cse2023@citchennai.net  
 
 ### **Submission**  
 #### **Progress**  
 - [x] Voice-to-credential MVP  
-- [x] Bluetooth mesh prototype  
+- [ ] Bluetooth mesh prototype  
 - [ ] ICP canister integration (in progress)  
 - [ ] Field testing in simulated environments  
 
@@ -150,25 +134,3 @@ graph TD
 - Technical guidance from DFINITY engineers  
 - Access to ICP HUBS network  
 - Grant interviews for scaling  
-
----
-
-### **Next Steps**  
-1. **Create Social Profiles**  
-   - [Twitter Signup](https://twitter.com/signup)  
-   - [Farcaster Channel Setup](https://warpcast.com)  
-2. **Push Code to GitHub**  
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial EduChain commit"
-   git branch -M main
-   git remote add origin https://github.com/[YourUsername]/EduChain.git
-   git push -u origin main
-   ```
-3. **Record 90-Second Demo**  
-   [Loom Recording Guide](https://www.loom.com/blog/how-to-record-a-video)
-
-**Deadline Tip**: Submit immediately after creating GitHub + 1 social profile!  
-
-> "Education shouldn't stop when connectivity does. We're building digital lifelines for the unconnected."
